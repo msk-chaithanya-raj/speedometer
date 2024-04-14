@@ -1,0 +1,78 @@
+/* Write your CSS here */
+.speedometer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #07080c;
+  font-family: 'Roboto';
+}
+.main-heading {
+  font-style: italic;
+  color: #ffffff;
+}
+.speed-meter-img {
+  width: 70%;
+}
+.speed-measure {
+  color: #ffffff;
+  font-weight: normal;
+  margin: 20px;
+}
+.description {
+  color: #cbd5e1;
+}
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.accelerate-btn {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border-style: none;
+  border-radius: 7px;
+  padding: 10px;
+  margin: 20px;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: normal;
+}
+.brake-btn {
+  padding: 10px;
+  color: #94a3b8;
+  border: 1px solid #94a3b8;
+  background-color: transparent;
+  margin: 20px;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+@media screen and (max-width: 767px) {
+  .main-heading {
+    font-size: 50px;
+    font-weight: normal;
+  }
+  .speed-measure {
+    font-size: 30px;
+  }
+  .description {
+    font-size: 20px;
+    font-weight: 500;
+  }
+}
+@media screen and (min-width: 768px) {
+  .main-heading {
+    font-size: 70px;
+    font-weight: normal;
+  }
+  .speed-measure {
+    font-size: 40px;
+  }
+  .description {
+    font-size: 20px;
+    font-weight: 500;
+  }
+}
